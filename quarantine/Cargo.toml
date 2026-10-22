@@ -1,0 +1,21 @@
+[package]
+name = "quarantine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+aes-gcm.workspace = true
+rusqlite.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+core-engine = { path = "../core-engine" }
+
+[dev-dependencies]
+tempfile.workspace = true

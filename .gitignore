@@ -1,0 +1,17 @@
+# Rust / Cargo / Tauri / Node artifacts
+/target/
+Cargo.lock
+# Tauri build output (desktop apps)
+/src-tauri/target/
+/dist/
+# Node modules (if any)
+node_modules/
+# IDE/editor specific
+.idea/
+.vscode/
+# OS generated files
+.DS_Store
+Thumbs.db
+# Misc
+*.log
+*.tmp

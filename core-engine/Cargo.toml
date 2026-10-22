@@ -1,0 +1,32 @@
+[package]
+name = "core-engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tokio = { workspace = true }
+sha2.workspace = true
+blake3.workspace = true
+rusqlite.workspace = true
+walkdir.workspace = true
+rayon.workspace = true
+goblin.workspace = true
+zip.workspace = true
+yara-x.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+regex.workspace = true
+csv.workspace = true
+
+[target.'cfg(windows)'.dependencies]
+windows.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
